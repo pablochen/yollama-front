@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import time
 
-url = "http://localhost:8000/run_model"
+url = "http://yollama-back-service:8000/run_model"
 
 response_box_html = '''
 <div id="response-box" style="
